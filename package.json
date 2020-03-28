@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/yugmani/minilibrary/issues"
   },
-  "homepage": "https://github.com/yugmani/minilibrary/public",
+  "homepage": "https://github.com/yugmani/minilibrary/public/texts.html",
   "dependencies": {
     "express": "^4.17.1",
     "mysql2": "^1.7.0",
