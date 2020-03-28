@@ -1,0 +1,29 @@
+{
+  "name": "minilibrary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yugmani/minilibrary.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yugmani/minilibrary/issues"
+  },
+  "homepage": "https://github.com/yugmani/minilibrary#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^1.7.0",
+    "nodemon": "^2.0.2",
+    "sequelize": "^4.44.4",
+    "sequelize-cli": "^5.5.1"
+  }
+}

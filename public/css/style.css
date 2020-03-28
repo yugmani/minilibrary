@@ -1,0 +1,84 @@
+button.submit {
+    float: right;
+  }
+  
+  form#cms {
+    margin-top: 50px;
+  }
+  
+  #cms textarea {
+    resize: none;
+  }
+  
+  .card-header button.delete,
+  button.edit, .new {
+    float: right;
+    margin: 5px;
+  }
+
+  .container-fluid {
+    background-color:lightgray;
+    padding:20px;
+  }
+
+  .blog-container {
+    margin:0 auto;
+    
+  }
+
+  /* .card-header {
+    display:flex;
+    justify-content: space-between;
+  } */
+
+  #book {
+    width:82%;
+    /* background-color:gray; */
+    margin:0 auto;
+    margin-top:50px;
+    display:flex;
+    justify-content: space-between;
+  }
+
+.form-group {
+  width: 30%;
+}
+
+footer {
+  background-color:silver;
+  color:navy;
+  margin-top:20px;
+  padding-top:15px;
+  border-top:5px solid yellow;
+  
+}
+
+footer ul {
+  
+  list-style: none;
+}
+
+ul li i.fab {
+  font-size:30px;
+}
+
+#base {
+  width:80%;
+  margin:0 auto;
+  display:flex;
+  justify-content: space-between;
+  }
+   
+
+  #header {
+    background-image: url("../images/book2.png");
+    /* background-color: #882929; */
+    width:60%;
+    height:100px;
+    margin:0 auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    
+    margin-bottom:20px;
+  }
