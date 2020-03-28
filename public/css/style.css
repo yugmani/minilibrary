@@ -3,6 +3,7 @@ button.submit {
   }
   
   form#cms {
+    width:100%;
     margin-top: 50px;
   }
   
@@ -18,12 +19,13 @@ button.submit {
 
   .container-fluid {
     background-color:lightgray;
-    padding:20px;
+    padding:10px;
+    margin-bottom:25px;
   }
 
   .blog-container {
     margin:0 auto;
-    
+    margin-bottom:10px;
   }
 
   /* .card-header {
@@ -44,31 +46,6 @@ button.submit {
   width: 30%;
 }
 
-footer {
-  background-color:silver;
-  color:navy;
-  margin-top:20px;
-  padding-top:15px;
-  border-top:5px solid yellow;
-  
-}
-
-footer ul {
-  
-  list-style: none;
-}
-
-ul li i.fab {
-  font-size:30px;
-}
-
-#base {
-  width:80%;
-  margin:0 auto;
-  display:flex;
-  justify-content: space-between;
-  }
-   
 
   #header {
     background-image: url("../images/book2.png");
@@ -82,3 +59,36 @@ ul li i.fab {
     
     margin-bottom:20px;
   }
+
+
+  #cms .form-group {
+    width: 100%;
+  }
+
+
+  
+.foot {
+  background-color:silver;
+  color:navy;
+  /* margin-top:20px; */
+  margin-bottom:0;
+  padding-top:10px;
+  border-top:5px solid yellow;
+}
+
+footer ul {
+  list-style: none;
+}
+
+ul li i.fab {
+  font-size:30px;
+}
+
+#base {
+  
+  width:80%;
+  margin:0 auto;
+  display:flex;
+  justify-content: space-between;
+  }
+   

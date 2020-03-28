@@ -11,15 +11,15 @@ module.exports = function(sequelize, DataTypes) {
 
       author: {
             type: DataTypes.STRING,
-            // allowNull: false,
-            //     validate: {
-            //     len: [3]
-            //     }
+            allowNull: false,
+                validate: {
+                len: [3]
+                }
         },
 
       genre: {
             type: DataTypes.STRING,
-            allowNull: true,
+            allowNull: false,
             },
 
      publisher: {

@@ -42,6 +42,7 @@ $(document).ready(function() {
       })
         .then(function() {
           getBooks(bookGenreSelect.val());
+          alert("Deleted successfully");
         });
     }
   
@@ -59,6 +60,7 @@ $(document).ready(function() {
       }
       // console.log(booksToAdd);
       bookContainer.append(booksToAdd);
+      
     }
   
 
@@ -142,7 +144,7 @@ $(document).ready(function() {
     // newBookCard.append(newBookCardBody);
 
            newBookCard.data("books", books);
-           
+      
       return newBookCard;
     }
   

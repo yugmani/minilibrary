@@ -51,13 +51,15 @@ $(document).ready(function() {
       }
       else {
         submitBook(newBook);
+        
       }
     });
   
     // Submits a new book and brings user to book upon completion
     function submitBook(Books) {
       $.post("/api/books/", Books, function() {
-        window.location.href = "/texts";
+        alert("New book is added successfully");
+        window.location.href = "/index";
       });
     }
   
@@ -88,7 +90,8 @@ $(document).ready(function() {
         data: book
       })
         .then(function() {
-          window.location.href = "/texts";
+          alert("Updated successfully");
+          window.location.href = "/index";
         });
     }
   });
